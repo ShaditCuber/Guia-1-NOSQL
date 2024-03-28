@@ -12,8 +12,8 @@ data_list = []
 
 for row in data:
     del row["#"]
-    del row["Fastest Solve"]
     # Cambiar nombre a las columnas
+    row["fastest_solve"] = int(row.pop("Fastest Solve"))
     row["person"] = row.pop("Person")
     row["solve_1"] = row.pop("Solve 1")
     row["solve_2"] = row.pop("Solve 2")
