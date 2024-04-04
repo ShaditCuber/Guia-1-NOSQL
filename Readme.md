@@ -1,5 +1,13 @@
 # CRUD MONGO DB + PYTHON
 
+## Modelo de Datos 
+#,Person,Solve 1,Solve 2,Solve 3,Solve 4,Solve 5,Fastest Solve,Country
+
+Mi dataset es parte de los resultados de la [WCA](www.worldcubeassociation.org), que es un  organismo sin fines de lucro dedicado a la competencia de Cubos de Rubiks.
+
+Cada json tiene un nombre del competidor , 5 tiempos de sus soluciones en el cubo de Rubik 3x3, tiene la solución mas rápida y su País.
+
+
 ## Instrucciones de Uso
 
 Primero instalar pipenv en caso de no tenerlo
