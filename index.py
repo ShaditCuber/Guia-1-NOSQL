@@ -57,6 +57,8 @@ def execute_query(query):
 
 
 def transform_cetiseconds_to_seconds(cetiseconds):
+    if cetiseconds == None:
+        return cetiseconds
     if cetiseconds == "DNF":
         return cetiseconds
     cetiseconds = int(cetiseconds)
